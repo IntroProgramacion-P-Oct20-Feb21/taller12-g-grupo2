@@ -1,0 +1,16 @@
+1. Inicio 
+2. función Principal ()
+3. 	arreglo1(4), i[0-n] <-- {1, 2, 5, 6}
+4. 	arreglo2(4), i[0-n] <-- {9, 8, 7, 1}
+5. 	contador, i[0-n] <-- 0
+6. 	Mientras ( contador < 4 ) entonces
+7. 		generarOperacion ( arreglo1(contador), arreglo2(contador)
+8. 		contador <-- contador + 1 
+9. 	Fin Mientras
+10. Fin función  Principal.
+11. función generarOperacion ( a, i[0-n] ; b, i[0-n] )
+12. 	z, i[0,n]
+13. 	z = (a*2 + b * 2) + a*b
+14. 	Escribir "El valor de z es:" + z
+15. Fin función generarOperación
+16. fin

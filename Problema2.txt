@@ -1,0 +1,43 @@
+1. Inicio
+2. funcion principal()
+3.      opcion, i[0-n]
+4.      cadena, x(200)[{a-z},{A-Z},{0-100}]
+5.      Escibir "Ingrese 1 si desea ingresar autos\nIngrese 2 si desea ingresar motos"
+6.      Leer opcion
+7.      Si (opcion == 1) entonces
+8.          cadena <-- funcionUno()
+9.          Escribir cadena
+10.      De lo contrario
+11.         Si (opcion == 2) entonces
+12.         cadena <-- funcionDos()
+13.         Escribir cadena
+14.         De lo contrario
+15.             Escribir "opcion incorrecta"
+16.         Fin si
+17.     Fin si
+18. fin funcion principal
+
+19. funcion funcionUno() : x
+20.     marca, x(200)[{a-z},{A-Z},{0-100}]
+21.     año, i[0-n]
+22.     cadena, x(200)[{a-z},{A-Z},{0-100}]
+23.     Escribir "Ingrese la marca del auto"
+24.     Leer marca
+25.     Escribir "Ingrese el año de fabricacion"
+26.     Leer año
+27.     cadena <-- "Auto marca " + marca " con año de fabricacion " + año
+28.     retorna cadena
+29. fin funcion funcionUno
+
+30. funcion funcionDos() : x
+31.     motor, x(200)[{a-z},{A-Z},{0-100}]
+32.     asientos, i[0-n]
+33.     cadena, x(200)[{a-z},{A-Z},{0-100}]
+34.     Escribir "Ingrese el tipo de motor de la moto"
+35.     Leer motor
+36.     Escribir "Ingrese el numero de asientos que tiene la moto"
+37.     Leer asientos
+38.     cadena <-- "Moto con " + motor "y " + asientos +" asientos"
+39.     retorna cadena
+40. fin funcion funcionDos
+41. fin
